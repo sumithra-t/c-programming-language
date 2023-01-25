@@ -1,0 +1,17 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+int x,y;
+
+cout<<"Enter x ::";
+cin>>x;
+cout<<"Enter y ::";
+cin>>y;
+x=x+y;
+y=x-y;
+x=x-y;
+cout<<"\n"<<"after swapping x="<<x;
+cout<<"\n"<<"after swapping y="<<y;
+return 0;
+}
